@@ -122,9 +122,14 @@ struct sdf_method_st {
     SDF_Decrypt_fn Decrypt;
     SDF_CalculateMAC_fn CalculateMAC;
 
-    /* SDF Ext API */
+    /* SDF Extend API */
     SDF_GenerateKey_fn GenerateKey;
 };
-
+/*
+include/openssl/types.h:
+  246  
+  247: typedef struct sdf_method_st SDF_METHOD;
+  248  
+*/
 extern SDF_METHOD ts_sdf_meth;
 #endif

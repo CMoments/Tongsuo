@@ -9,7 +9,7 @@
 
 #include <openssl/types.h>
 #include <openssl/sdf.h>
-#include "sdf_local.h"
+#include "sdf_local_int.h"
 
 static int x_OpenDevice(void **phDeviceHandle)
 {

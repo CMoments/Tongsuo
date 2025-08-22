@@ -13,7 +13,8 @@
 #include "internal/thread_once.h"
 #include "internal/dso.h"
 #include "internal/sdf.h"
-#include "sdf_local.h"
+#include "sdf_local_int.h"
+#include "sdf_local_ext.h"
 
 #ifdef SDF_LIB
 # ifdef SDF_LIB_SHARED
